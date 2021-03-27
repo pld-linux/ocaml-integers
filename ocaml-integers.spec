@@ -69,8 +69,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_libdir}/ocaml/integers/dune-package
 %{_libdir}/ocaml/integers/opam
-%if %{with ocaml_opt}
 %{_libdir}/ocaml/integers/*.a
+%if %{with ocaml_opt}
 %{_libdir}/ocaml/integers/*.cmx
 %{_libdir}/ocaml/integers/*.cmxa
 %endif
